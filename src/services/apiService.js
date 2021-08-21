@@ -4,7 +4,7 @@ import DataMock from '../mock/dataMock';
 
 const fetchData = async (itemId) => {
   try {
-    const url = `http://localhost:3000/${itemId}`;
+    const url = `http://localhost:3001/${itemId}`;
     return await fetch(url, { method: 'GET' }).then((res) => res.json());
   } catch (e) {
     if (ServiceHelper.isLocalHost) {

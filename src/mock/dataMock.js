@@ -1,4 +1,4 @@
-const getMockData = [{ id: '1', name: 'Ben Byrd' }, { id: 2, name: 'Malcolm Byrd' }];
+const getMockData = [{ id: '1', name: 'John Doe' }, { id: 2, name: 'Bob Smith' }];
 
 const DataMock = { getMockData };
 

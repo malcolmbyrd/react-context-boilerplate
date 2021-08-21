@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, Suspense } from 'react';
 import { Context } from '../store';
 import DataService from '../services/apiService';
 import DataDisplay from './DataDisplay';
@@ -18,7 +18,9 @@ const Content = () => {
     <div className="main-content">
       <button type="button" onClick={() => getData()}>Get Data</button>
       {state.data.length > 0 && (
-        <div>Howdy</div>
+        <Suspense fallback={<div>Loading...</div>}>
+          <DataDisplay data={state.data} />
+        </Suspense>
       )}
     </div>
   );
