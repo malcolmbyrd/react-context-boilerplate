@@ -1,3 +1,22 @@
+# React Context Boilerplate
+This project boilerplate provides access to a pre-initialized create-react-app,
+loaded several useful tools and file structure.
+
+## Built With
+
+🔥 <a href='https://reactjs.org/' target='_blank'>React</a>
+
+🐠 <a href='https://reactjs.org/docs/hooks-intro.html' target='_blank'>React Hooks</a>
+/ <a href='https://reactjs.org/docs/context.html' target='_blank'>React Context</a>
+
+💥 <a href='https://babeljs.io/' target='_blank'>Babel</a> / <a href='https://eslint.org/' target='_blank'>ESLint</a>
+
+💅 <a href='https://sass-lang.com/' target='_blank'>Sass</a>
+
+🚢 <a href='https://yarnpkg.com/' target='_blank'>Yarn Package Manager</a>
+
+<hr />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
